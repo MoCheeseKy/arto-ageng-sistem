@@ -133,7 +133,9 @@ export default function DashboardOwnerPage() {
                   tick={{ fill: '#64748b', fontSize: 12 }}
                 />
                 <Tooltip
-                  formatter={(value: number) => formatRupiah(value)}
+                  formatter={(value) =>
+                    formatRupiah(typeof value === 'number' ? value : 0)
+                  }
                   cursor={{ fill: '#f1f5f9' }}
                 />
                 <Legend wrapperStyle={{ paddingTop: '20px' }} />
