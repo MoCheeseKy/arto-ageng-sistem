@@ -91,7 +91,7 @@ export function AppSidebar() {
           </div>
           <div className='flex flex-col'>
             <h2 className='text-lg font-extrabold text-white tracking-wide'>
-              PT. AAA
+              PT. Arto Ageng Abadi
             </h2>
             <p className='text-[10px] text-slate-400 font-semibold tracking-widest uppercase'>
               Sistem Operasi

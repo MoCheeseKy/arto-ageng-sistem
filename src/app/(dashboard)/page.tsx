@@ -41,7 +41,7 @@ export default function DashboardOwnerPage() {
           Overview Dashboard
         </h2>
         <p className='text-sm text-slate-500'>
-          Ringkasan operasional dan keuangan PT. AAA periode ini.
+          Ringkasan operasional dan keuangan PT. Arto Ageng Abadi periode ini.
         </p>
       </div>
 
